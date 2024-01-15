@@ -8,6 +8,11 @@
 *.so
 *.dylib
 
+.vscode/
+.DS_Store
+speaktext
+speaktext.exe
+SpeakCache/
 # Test binary, built with `go test -c`
 *.test
 
