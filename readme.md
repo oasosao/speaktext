@@ -2,14 +2,31 @@
 
 这是一个利用微软翻译API的文本转语音的免费go程序
 
-使用方法:
+### 程序下载地址
+- **Github 下载：**
+<https://github.com/oasosao/speaktext/releases/tag/v0.0.1-alpha>。
+- **Gitee 下载：**  <https://gitee.com/oasosao/speaktext/releases/tag/v0.0.1-alpha>
+
+### 源码安装
 
 ```sh
-$ go install github.com/oasosao/speaktext@latest
-$ speaktext -text "你好，世界！" 
+$ git clone github.com/oasosao/speaktext.git
+$ cd speaktext
+$ go build
+$ ./speaktext -text "你好，世界！"
 ```
 
-### 参数参考
+
+## 使用方法:
+
+```sh
+$ speaktext -text "你好，世界！"  -rate="20%"  -voice="zh-CN-YunxiNeural"
+$ 
+$ speaktext -text="./speak.txt" -rate="20%" -voice="zh-CN-YunxiNeural"
+$
+```
+
+**参数参考**
 
 ```sh
 -autoPlay

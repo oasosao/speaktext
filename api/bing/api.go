@@ -20,9 +20,9 @@ type Options struct {
 	IID   string
 
 	// 生成的语音配置项
-	VoiceName    string // 文本转语音输出的语音角色
-	ProsodyPitch string // 指示文本的基线音节
-	ProsodyRate  string // 指示文本的讲出速率
+	VoiceName    string // 语音输出的语音角色
+	ProsodyPitch string // 语音输出基线音节
+	ProsodyRate  string // 语音输出的讲出速率
 
 	// 翻译
 	FromLang string
