@@ -11,7 +11,8 @@
 
 ```sh
 $ git clone github.com/oasosao/speaktext.git
-$ cd speaktext
+$ cd ./speaktext
+$ go mod tidy
 $ go build
 $ ./speaktext -text "你好，世界！"
 ```
