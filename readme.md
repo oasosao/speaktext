@@ -14,15 +14,15 @@ $ git clone github.com/oasosao/speaktext.git
 $ cd ./speaktext
 $ go mod tidy
 $ go build
-$ ./speaktext -text "你好，世界！"
+$ ./speaktext -text="你好，世界！"
 ```
 
 
 ## 使用方法:
 
 ```sh
-$ speaktext -text "你好，世界！"  -rate="20%"  -voice="zh-CN-YunxiNeural"
-$ 
+$ speaktext -text="你好，世界！"  -rate="20%"  -voice="zh-CN-YunxiNeural"
+$ # 创建一个文本文件， speak.txt 在文本中写上一些内容。
 $ speaktext -text="./speak.txt" -rate="20%" -voice="zh-CN-YunxiNeural"
 $
 ```
