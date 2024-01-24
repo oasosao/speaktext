@@ -1,6 +1,6 @@
 # 文本转语音 
 
-这是一个利用微软翻译API的文本转语音的免费go程序
+这是一个利用微软api做的文本转语音工具
 
 ### 程序下载地址
 - **Github 下载：**
@@ -24,7 +24,6 @@ $ ./speaktext -text="你好，世界！"
 $ speaktext -text="你好，世界！"  -rate="20%"  -voice="zh-CN-YunxiNeural"
 $ # 创建一个文本文件， speak.txt 在文本中写上一些内容。
 $ speaktext -text="./speak.txt" -rate="20%" -voice="zh-CN-YunxiNeural"
-$
 ```
 
 **参数参考**
